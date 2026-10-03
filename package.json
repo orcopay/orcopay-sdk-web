@@ -1,0 +1,22 @@
+{
+  "name": "@orcopay/sdk",
+  "version": "0.1.0",
+  "description": "Orcopay Checkout SDK — one integration, any onboarded payment gateway.",
+  "type": "module",
+  "main": "dist/orcopay.js",
+  "module": "dist/orcopay.esm.js",
+  "types": "dist/orcopay.d.ts",
+  "unpkg": "dist/orcopay.global.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
